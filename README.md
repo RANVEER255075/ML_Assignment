@@ -1,22 +1,34 @@
-# ML_Assignment
-Documentation of ML assignment
-Explanation
+e right. If the code is already included in the repository files, the README file can focus more on summarizing the tasks and explaining the purpose and results. Here’s a revised version of the README that excludes code snippets:
 
-Download.ipynb Dataset exploration
-explanation 
+---
 
-Loading the Dataset: The load_iris() function from sklearn.datasets returns a dictionary-like object with the data and feature names. We use this to create a pandas DataFrame, making it easier to analyze.
-First Five Rows: The .head() method shows the first five rows of the DataFrame.
-Dataset Shape: The .shape attribute provides the dimensions of the dataset (number of rows and columns).
-Summary Statistics: The .describe() method calculates various summary statistics (mean, standard deviation, min, max, and quartiles) for each feature. 
+# B.Tech CSE AI and DS (3rd Semester) - Machine Learning Assignment
 
-Download1.ipynb Data splitting
-explanation
+## Assignment Overview
 
-train_test_split Function: This function randomly splits the dataset into training and testing sets. test_size=0.2 specifies that 20% of the data should be allocated to the test set, and the remaining 80% will be used for training. random_state=42 ensures that the split is reproducible (you’ll get the same split each time you run the code).
-Printing the Number of Samples: The .shape[0] attribute of the resulting arrays gives the number of samples (rows) in each set.
+This repository contains the solutions for the Machine Learning assignment for the B.Tech CSE AI and DS program (3rd Semester). The tasks involve dataset exploration, data splitting, and implementing a simple linear regression model. Below is a brief overview of the tasks and the results.
 
-Download2.ipynb linearregressions prediction
-explanation
+### Task 1: Dataset Exploration
 
-Import Libraries: Import the necessary libraries for data manipulation, model fitting, and evaluation. Create/Load Dataset: Create a sample dataset or load your own. Split Dataset: Divide the data into training and testing sets. Fit Model: Train the linear regression model on the training data. Make Predictions: Predict salaries for the test set using the trained model. Evaluate Performance: Calculate and print the Mean Squared Error to evaluate model performance.
+- **Dataset:** The Iris dataset was used for this task.
+- **Objective:** Explore the dataset by displaying the first five rows, the dataset's shape, and summary statistics (mean, standard deviation, minimum, and maximum values) for each feature.
+- **Results:** The dataset contains 150 samples with 4 features. Summary statistics include mean, standard deviation, and min/max values for each feature.
+
+### Task 2: Data Splitting
+
+- **Objective:** Split the Iris dataset into training and testing sets using an 80-20 split.
+- **Results:** The dataset was split into 120 samples for training and 30 samples for testing.
+
+### Task 3: Linear Regression
+
+- **Objective:** Fit a linear regression model to predict `Salary` based on `YearsExperience` using a custom dataset.
+- **Results:** The Mean Squared Error (MSE) of the model on the test set was calculated to evaluate its performance.
+
+## Files Included
+
+- `Download.py` - Contains code for exploriaset.
+- `Dowmload2.py` - Contains code for splitting the Iris dataset.
+- `Dpwnload3.py` - Contains code for fitting and evaluating the linear regression model.
+
+
+
