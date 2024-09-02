@@ -1,6 +1,4 @@
-e right. If the code is already included in the repository files, the README file can focus more on summarizing the tasks and explaining the purpose and results. Here’s a revised version of the README that excludes code snippets:
 
----
 
 # B.Tech CSE AI and DS (3rd Semester) - Machine Learning Assignment
 
